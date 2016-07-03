@@ -1,0 +1,12 @@
+#JEB properties
+#Sun Nov 16 16:01:38 CST 2014
+code_font=1|Courier New|9.0|0|WINDOWS|1|-12|0|0|0|0|0|0|0|1|0|0|0|0|Courier New
+shell_max=false
+eula_accepted=true
+ui_w_console_ratio=12
+check_update=true
+last_version_run=1.5.201404100
+shell_width=1280
+shell_height=720
+first_run=1398415938
+last_run=1416124897
