@@ -1,38 +1,35 @@
-JEB -- The Interactive Android Decompiler
-http://www.android-decompiler.com
+JEB2 Decompiler
+PNF Software, Inc. 
+https://www.pnfsoftware.com
 
-This archive contains a licensed copy of JEB, in its full or demonstration version.
-By installing or executing JEB, the user accepts the attached End-User License Agreement (EULA).
-JEB is to be used solely by the licensee, as explicitly stated in the EULA.
+This archive contains a licensed copy of JEB2, in its full or demonstration
+version. By installing or executing JEB2, the user agrees to the conditions
+detailed in the attached End-User License Agreement (EULA). JEB2 is to be used
+solely by the licensee, as explicitly stated in the EULA.
 
 > Requirements
-- A Java 6 runtime environmemt.
-- The SWT library
-- The Jython library
-Please refer to http://www.android-decompiler.com/download
+- A Linux, Windows, or Mac OS X operating system (32-bit or 64-bit)
+- A Java 7 or later runtime environmemt
+  Please visit http://www.oracle.com/technetwork/java/javase/downloads
+- The JEB Support Package library
+  Downloaded at start-up (requires an Internet connection), can also be
+  downloaded manually from https://www.pnfsoftware.com
 
 > How to install?
 - Extract the content of this archive to a directory of your choice.
-- Visit www.android-decompiler.com/download and:
-   - download the appropriate version of SWT your system
-   - download a Jython package
-- Drop these two files in the JEB directory
+- (Optional) Visit https://www.pnfsoftware.com/jeb2/support-package to
+  download the appropriate version of the Support Package for your system
+- Drop this file in the bin/ directory within your JEB extraction folder
 
 > How to execute?
-- On Linux: run jeb_linux.sh
-- On MacOS: run jeb_macos.sh
-- On Windows: run jeb_wincon.bat
+- On Linux, open a terminal and type: "bash jeb_linux.sh"
+- On MacOS, open a terminal and type: "bash jeb_macos.sh"
+- On Windows, open a terminal and type: "jeb_wincon.bat"
 
-> How to use the floating licensed builds?
-Please refer to FLOATING.TXT
+> How to set up and use the floating licensed builds?
+Tutorial at https://www.pnfsoftware.com/viewdoc?doc=jeb2-controller-setup
 
 > How to use?
-Help on how to use JEB can be found at http://www.android-decompiler.com/manual
-More help on our Google Groups forum at https://groups.google.com/forum/#!forum/jeb-decompiler
-
-> How to write scripts and plugins?
-API documentation: http://www.android-decompiler.com/apidoc
-API doc archive and API code samples: http://www.android-decompiler.com/download
-
-> How to order?
-See http://www.android-decompiler.com/buy
+User manual at https://www.pnfsoftware.com/viewdoc?doc=jeb2-user-manual
+Help on how to use JEB can be found at https://www.pnfsoftware.com
+Google Groups forum at https://groups.google.com/forum/#!forum/jeb-decompiler
