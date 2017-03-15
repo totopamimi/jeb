@@ -17,8 +17,8 @@ solely by the licensee, as explicitly stated in the EULA.
 
 > How to install?
 - Extract the content of this archive to a directory of your choice.
-- (Optional) Visit https://www.pnfsoftware.com/jeb2/support-package to
-  download the appropriate version of the Support Package for your system
+- (Optional) Visit https://www.pnfsoftware.com and download the appropriate
+  version of the Support Package for your system
 - Drop this file in the bin/ directory within your JEB extraction folder
 
 > How to execute?
@@ -27,9 +27,8 @@ solely by the licensee, as explicitly stated in the EULA.
 - On Windows, open a terminal and type: "jeb_wincon.bat"
 
 > How to set up and use the floating licensed builds?
-Tutorial at https://www.pnfsoftware.com/viewdoc?doc=jeb2-controller-setup
+JEB v2 does not support Floating licenses at this time.
 
 > How to use?
-User manual at https://www.pnfsoftware.com/viewdoc?doc=jeb2-user-manual
 Help on how to use JEB can be found at https://www.pnfsoftware.com
 Google Groups forum at https://groups.google.com/forum/#!forum/jeb-decompiler

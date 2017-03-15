@@ -34,10 +34,10 @@ if [ $RETCODE -lt 0 ]; then
 fi
 
 if [ "$1" == "-c" ]; then
-    $JAVA -jar $SCRIPTDIR/bin/cl/jeb.jar -c "$@"
+    $JAVA -jar $SCRIPTDIR/bin/cl/jeb.jar -c $@
     exit 0
 fi
 
 chmod +x $SCRIPTDIR/bin/jeb.app/Contents/MacOS/jeb
-$SCRIPTDIR/bin/jeb.app/Contents/MacOS/jeb -data $SCRIPTDIR/bin/jeb.app/Contents/MacOS/workspace "$@"
+$SCRIPTDIR/bin/jeb.app/Contents/MacOS/jeb $@
 exit 0

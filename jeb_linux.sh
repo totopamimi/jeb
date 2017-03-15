@@ -2,9 +2,6 @@
 
 # Start-up script for JEB2 (Linux)
 
-# disable GTK 3 which introduce some graphical bugs
-export SWT_GTK3=0
-
 # Prefer a JDK over a JRE
 if [ -z "$JAVA_HOME" ]; then
   JAVA=`which java`
@@ -37,10 +34,10 @@ if [ $RETCODE -lt 0 ]; then
 fi
 
 if [ "$1" == "-c" ]; then
-    $JAVA -jar $SCRIPTDIR/bin/cl/jeb.jar "$@"
+    $JAVA -jar $SCRIPTDIR/bin/cl/jeb.jar $@
     exit 0
 fi
 
 chmod +x $SCRIPTDIR/bin/jeb
-$SCRIPTDIR/bin/jeb -data $SCRIPTDIR/bin/workspace "$@"
+$SCRIPTDIR/bin/jeb $@
 exit 0
